@@ -1,0 +1,8 @@
+<div>
+  <button class="btn btn-primary" (click)="toggleLista()">Mostrar/Ocultar Lista</button>
+  <ul class="list-group" *ngIf="mostrarLista">
+    <li class="list-group-item">{{ Tarea1 }}</li>
+    <li class="list-group-item">{{ Tarea2 }}</li>
+    <li class="list-group-item">{{ Tarea3 }}</li>
+  </ul>
+</div>
